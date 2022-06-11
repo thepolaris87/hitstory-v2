@@ -1,0 +1,52 @@
+#main {
+    display: flex;
+    width: 100vw !important;
+    height: 46.5vw !important;
+}
+#jeibot-container {
+    width: 62%;
+    max-height: 100%;
+}
+#board-container {
+    width: 38%;
+    max-height: 100%;
+    overflow: auto;
+}
+#board-jeibot {
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+#popup-container {
+    margin: 0 auto;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+@media (min-aspect-ratio: 13/6) {
+    #main {
+        /* width: 216vh; */
+        height: 100vh !important;
+        background-color: lightcyan;
+    }
+}
+
+.ffcr {
+    font-family: 'CookieRunRegular';
+}
+
+@font-face {
+    font-family: 'CookieRunRegular';
+    src: url(../../static/media/CookieRunRegular.otf?cee2e5ff) format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*# sourceMappingURL=app.d97e4b45.css.map*/
